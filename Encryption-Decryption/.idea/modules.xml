@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption.iml" group="Encryption-Decryption" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_main.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Encryption-Decryption/task/Encryption-Decryption-task_test.iml" group="Encryption-Decryption/Encryption-Decryption-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator.iml" group="Encryption-Decryption/Problems-Basic_calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator_main.iml" group="Encryption-Decryption/Problems-Basic_calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Basic calculator/Problems-Basic_calculator_test.iml" group="Encryption-Decryption/Problems-Basic_calculator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements.iml" group="Encryption-Decryption/Problems-Get_first_and_last_elements" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements_main.iml" group="Encryption-Decryption/Problems-Get_first_and_last_elements" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Get first and last elements/Problems-Get_first_and_last_elements_test.iml" group="Encryption-Decryption/Problems-Get_first_and_last_elements" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Encryption-Decryption/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Encryption-Decryption/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Encryption-Decryption/util" />
+    </modules>
+  </component>
+</project>

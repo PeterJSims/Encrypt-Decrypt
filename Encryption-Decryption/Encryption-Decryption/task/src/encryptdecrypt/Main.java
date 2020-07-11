@@ -2,28 +2,20 @@ package encryptdecrypt;
 import java.util.Scanner;
 public class Main {
 
-
-
     public static void main(String[] args) {
-        String operation = "enc";
-        String text = "";
-        int key = 0;
-        for (int i = 0; i < args.length; i++) {
-            if (args[i].equals("-mode")) {
-                operation = args[i + 1];
-            }
-            if (args[i].equals("-key")) {
-                key = Integer.parseInt(args[i + 1]);
-            }
-            if (args[i].equals("-data")) {
-                text = args[i + 1];
-            }
-        }
-        if (operation.equals("enc")) {
-            System.out.println(encrypt(text, key));
-        }
-        if (operation.equals("dec")) {
-            System.out.println(decrypt(text, key));
+        Scanner scanner = new Scanner(System.in);
+        String command = scanner.nextLine();
+        String stringToEdit = scanner.nextLine();
+        int shift = scanner.nextInt();
+        switch (command){
+            case "enc":
+                System.out.println(encrypt(stringToEdit, shift));
+                break;
+            case "dec":
+                System.out.println(decrypt(stringToEdit, shift));
+                break;
+            default:
+                break;
         }
 
     }

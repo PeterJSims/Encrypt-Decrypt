@@ -59,26 +59,34 @@ files:
     import java.util.Scanner;
     public class Main {
         public static void main(String[] args) {
+            String alphabet = "abcdefghijklmnopqrstuvwxyz";
             Scanner scanner = new Scanner(System.in);
-            String[] alphabet = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
-            String phrase = scanner.nextLine();
+            String stringToEncrypt = scanner.nextLine();
             int shift = scanner.nextInt();
-            String shiftedString = "";
-            for(int i = 0; i < phrase.length(); i++){
-                if(phrase.charAt(i) == " "){
-                    shiftedString += " ";
-                }else if (alphabet.contains(phrase.charAt(i))){
-                    if(alphabet.indexOf(phrase.charAt(i)) + shift < 26){
-                        shiftedString += alphabet[alphabet.indexOf(phrase.charAt(i)) + shift];
+            StringBuilder encrypted = new StringBuilder();
+            for(int i = 0; i < stringToEncrypt.length(); i++){
+                Character c = stringToEncrypt.charAt(i);
+                if (c == ' '){
+                    encrypted.append(" ");
+                }else if (alphabet.indexOf(c) != -1){
+                    if(alphabet.indexOf(c) + shift < 26) {
+                        encrypted.append(alphabet.charAt(alphabet.indexOf(c) + shift));
                     } else {
-                        shiftedString += alphabet[alphabet.indexOf(phrase.charAt(i)) + shift - 26];
+                        encrypted.append(alphabet.charAt(alphabet.indexOf(c)+ shift -26));
                     }
+                } else {
+                    encrypted.append(stringToEncrypt.charAt(i));
                 }
             }
-            System.out.println(shiftedString);
+            System.out.println(encrypted);
+
         }
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/46/stages/247/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/46/stages/247/implement">JetBrains
+    Academy</a>
+  time: Sat, 11 Jul 2020 01:03:03 UTC
+record: 3
